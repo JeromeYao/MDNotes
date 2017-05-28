@@ -27,40 +27,43 @@ This is the second paragraph in the blockquote.
 ## This is an H2 in a blockquote
 ```
 
-A First Level Header
-====================
-A Second Level Header
----------------------
-Now is the time for all good men to come to
-the aid of their country. This is just a
-regular paragraph.
-
-The quick brown fox jumped over the lazy
-dog's back.
-### Header 3
-
-This is a blockquote.
- 
-This is the second paragraph in the blockquote.
-
-## This is an H2 in a blockquote
+> A First Level Header
+> ====================
+> A Second Level Header
+> ---------------------
+> Now is the time for all good men to come to
+> the aid of their country. This is just a
+> regular paragraph.
+>
+> The quick brown fox jumped over the lazy
+> dog's back.
+> ### Header 3
+>
+> This is a blockquote.
+>  
+> This is the second paragraph in the blockquote.
+> 
+> ## This is an H2 in a blockquote
 
 ## 修辞和强调
 Markdown使用星号和底线来标记需要强调的区段。
+
+```markdown
+Some of these words *are emphasized*.  
+Some of these words _are emphasized also_.  
+Use two asterisks for **strong emphasis**.  
+Or, if you prefer, __use two underscores instead__.  
+```
+
 > Some of these words *are emphasized*.
 > Some of these words _are emphasized also_.
 > Use two asterisks for **strong emphasis**.
 > Or, if you prefer, __use two underscores instead__.
 
-```markdown
-Some of these words *are emphasized*.
-Some of these words _are emphasized also_.
-Use two asterisks for **strong emphasis**.
-Or, if you prefer, __use two underscores instead__.
-```
 
 ## 列表
 无序列表使用星号、加号和减号来作为列表的项目标记。这些符号都是可以使用的，使用星号：
+
 > * CAndy.
 > * Gum.
 > * Booze.
@@ -109,22 +112,31 @@ title 属性是选择性的，链接名称可以用字母、数字和空格，�
 
 ## 图片
 图片的语法和链接很像。行内形式（title是选择性的）：
-> ![alt text]( http://t.cn/RSL8fJM "Title")
+
+> ![Image text]( http://t.cn/RSL8fJM "Title")
 
 参考形式：
 
-![alt text][id]
+> ![alt text][id] 
+
 [id]: http://t.cn/RSL8fJM "Title"
 
 ## 代码
-在一般的段落文字中，你可以使用反引号 ` 来标记代码区段，区段内的 &、< 和 > 都会被自动的转换成 HTML 实体，这项特性让你可以很容易的在代码区段内插入 HTML 码：
+在一般的段落文字中，你可以使用反引号 \` 来标记代码区段，区段内的 &、< 和 > 都会被自动的转换成 HTML 实体，这项特性让你可以很容易的在代码区段内插入 HTML 码：
+
+```markdown
+I strongly recommend against using any `<blink>` tags.
+
+I wish SmartyPants used named entities like `&mdash;`
+instead of decimal-encoded entites like `&#8212;`.
+```
+
 > I strongly recommend against using any `<blink>` tags.
 >
 > I wish SmartyPants used named entities like `&mdash;`
 > instead of decimal-encoded entites like `&#8212;`.
-如果要建立一个已经格式化好的代码区块，只要每行都缩进 4 个空格或是一个 tab 就可以了，而 &、< 和 > 也一样会自动转成 HTML 实体。
 
-Markdown 语法:
+如果要建立一个已经格式化好的代码区块，只要每行都缩进 4 个空格或是一个 tab 就可以了，而 &、< 和 > 也一样会自动转成 HTML 实体。
 > If you want your page to validate under XHTML 1.0 Strict,
 > you've got to put paragraph tags in your blockquotes:
 >
