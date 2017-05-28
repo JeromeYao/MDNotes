@@ -109,12 +109,12 @@ title 属性是选择性的，链接名称可以用字母、数字和空格，�
 
 ## 图片
 图片的语法和链接很像。行内形式（title是选择性的）：
-> ![alt text]( http://t.cn/RSL6vOL "Title")
+> ![alt text]( http://t.cn/RSL8fJM "Title")
 
 参考形式：
 
 ![alt text][id]
-[id]: http://t.cn/RSL6vOL "Title"
+[id]: http://t.cn/RSL8fJM "Title"
 
 ## 代码
 在一般的段落文字中，你可以使用反引号 ` 来标记代码区段，区段内的 &、< 和 > 都会被自动的转换成 HTML 实体，这项特性让你可以很容易的在代码区段内插入 HTML 码：
