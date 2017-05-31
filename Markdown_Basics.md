@@ -134,7 +134,7 @@ Markdown 支持两种形式的链接语法： 行内和参考两种形式，两�
 title 属性是选择性的，链接名称可以用字母、数字和空格，但是不分大小写：
 > I start my morning with a cup of coffee and
 > [The New York Times][NY Times].
-> [ny times]: http://www.nytimes.com/
+[ny times]: http://www.nytimes.com/
 
 ## 图片
 图片的语法和链接很像。行内形式（title是选择性的）：
